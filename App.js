@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SpaceItem from './components/SpaceItem';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+
+      <SpaceItem name={'STARSHIP SN9 HIGH-ALTITUDE FLIGHT TEST'} subtitle={'COMPLETED TEST'}  />
+      
       <StatusBar style="auto" />
     </View>
   );
